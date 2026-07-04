@@ -1,11 +1,11 @@
-# 💼 Salary Predictor (Machine Learning Project)
+# Salary Predictor (Machine Learning Project)
 
-## 📌 Overview
+## Overview
 This project predicts employee salaries based on years of experience using Linear Regression.
 
 ---
 
-## 🧠 What I learned
+## What I learned
 - Loading datasets with Pandas
 - Splitting data into training/testing sets
 - Training a Linear Regression model
@@ -15,7 +15,7 @@ This project predicts employee salaries based on years of experience using Linea
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 - Python
 - Pandas
 - Scikit-learn
@@ -23,13 +23,13 @@ This project predicts employee salaries based on years of experience using Linea
 
 ---
 
-## 📂 Dataset
+## Dataset
 - YearsExperience
 - Salary
 
 ---
 
-## 🚀 How to run
+## How to run
 
 ```bash
 pip install -r requirements.txt
