@@ -14,7 +14,7 @@ def main():
     # Load dataset
     df = pd.read_csv("salary.csv")
 
-    print("\n📊 First 5 rows of dataset:")
+    print("\nFirst 5 rows of dataset:")
     print(df.head())
 
     # Features and target
@@ -39,12 +39,12 @@ def main():
         "Predicted Salary": y_pred
     })
 
-    print("\n📌 Prediction Results:")
+    print("\nPrediction Results:")
     print(comparison.head())
 
     # Evaluation
     mae = mean_absolute_error(y_test, y_pred)
-    print(f"\n📉 Mean Absolute Error: {mae:.2f}")
+    print(f"\nMean Absolute Error: {mae:.2f}")
 
     # Visualization
     plt.scatter(X_test, y_test, label="Actual Salary")
